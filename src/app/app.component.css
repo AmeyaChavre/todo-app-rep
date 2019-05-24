@@ -1,10 +1,9 @@
 /*Google fonts*/
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&effect=fire-animation');
 
 body{
 	padding: 0;
 	margin: 0;
-
 }
 form{
 	max-width: 30em;
@@ -15,11 +14,11 @@ form{
     overflow: hidden;
 }
 form h1{
-    font-family: "Raleway";
-    color:#F97300; 
+    font-family: "Ubuntu";
+    color:#000000; 
 }
 form input[type=text]::placeholder{
-   font-family: "Raleway";
+   font-family: "Ubuntu";
    color:#666; 
 }
 form .data{
@@ -27,35 +26,35 @@ form .data{
 }
 form .data li{
  background: #fff;
- border-left: 4px solid #F97300;
+ border-left: 4px solid #FFFFFF;
  padding: 1em;
  margin: 1em auto;
  color: #666;
- font-family: "Raleway";
+ font-family: "Ubuntu";
 }
 form .data li i{
     float: right;
-    color: #888;
+    color: #666;
     cursor: pointer;
 }
 form .input-group-text{
-    background: #F97300;
+    background: #FFD600;
     border-radius: 50%;
     width: 5em;
     height: 5em;
     padding: 1em 23px;
-    color: #fff;
+    color: #FFFFFF;
     position: absolute;
     right: 13px;
     top: 68px;
     cursor: pointer;
 }
 form .input-group-text i{
-    font-size: 2em;
+    font-size: 1.7em;
 }
 form .form-control{
 	height: 3em;
-    font-family: "Raleway";
+    font-family: "Ubuntu";
 }
 form .form-control:focus{
 	box-shadow: 0;
